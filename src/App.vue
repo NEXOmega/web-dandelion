@@ -23,11 +23,11 @@ main
   background-color black
   background-repeat no-repeat
   background-size cover
+  color #212A2F
 *
   sc-reset()
   font-family 'Open Sans', sans-serif;
   -webkit-font-smoothing antialiased;
   -moz-osx-font-smoothing grayscale;
   text-align center;
-  color #212A2F
 </style>

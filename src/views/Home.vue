@@ -46,7 +46,6 @@ main
     span
       font-family 'qarrotface'
       font-size 2em
-      color #212A2F
     > *
       display block
       margin 0 auto

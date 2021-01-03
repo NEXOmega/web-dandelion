@@ -6,7 +6,7 @@ main
 export default {
     data() {
         return {
-            array: "AllIWantForChristmasIsYou".repeat(8).split(''),
+            array: "ⒶⓛⓛⒾⓌⓐⓝⓣⒻⓞⓡⒸⓗⓡⓘⓢⓣⓜⓐⓢⒾⓢⓎⓞⓤ".repeat(8).split(''),
             test: this.$root.$refs.audio
         }
     }
