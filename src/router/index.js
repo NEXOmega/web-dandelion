@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '@views/Home.vue'
 
 const routes = [
   {
@@ -10,7 +10,12 @@ const routes = [
   {
     path: '/contact',
     name: 'Contact',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
+    component: () => import('@views/Contact.vue')
+  },
+  {
+    path: '/join',
+    name: 'Join',
+    component: () => import('@views/Join.vue')
   }
 ]
 

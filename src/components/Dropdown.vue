@@ -55,7 +55,7 @@ main
         flex-flow column nowrap
         align-items flex-start 
         position absolute
-        z-index 2
+        z-index 3
 
         li
             margin-left 0px

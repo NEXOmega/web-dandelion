@@ -5,7 +5,9 @@ const aliases = {
   texture: "src/assets/textures",
   font: 'src/assets/fonts',
   image: "src/assets/images",
-  cmp: "src/components"
+  cmp: "src/components",
+  views: 'src/views',
+  downloads: 'public/downloads'
 }
 
 const registerAliases = (a, config) => Object.entries(a).forEach(([k, v]) => config.resolve.alias.set('@' + k, path.join(__dirname, v)))

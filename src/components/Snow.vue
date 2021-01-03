@@ -28,6 +28,16 @@ main
         color white
         font-size 2em
         filter: drop-shadow(0 0 10px white);
+        height 0
+        width 0
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        -moz-user-drag: none;
+        -khtml-user-drag: none;
+        -webkit-user-drag: none;
+        user-drag: none;
     
     for num in (1..200)
         $random-yoyo-time= random(30000, 80000) / 100000;

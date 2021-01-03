@@ -24,6 +24,7 @@ main
   background-repeat no-repeat
   background-size cover
   color #212A2F
+  z-index -99
 *
   sc-reset()
   font-family 'Open Sans', sans-serif;
